@@ -14,12 +14,17 @@ body{
 }
 a{
   text-decoration: none;
-  color: black;
+  color: #ffffffff;
   font-size: $text;
 }
 
 .title{
   font-family: 'fraunces';
+  text-align: center;
+  font-size: 3.5rem;
+  padding-top: 6rem;
+  word-spacing: 1rem;
+  font-weight: 700;
 }
 
 /* header*/
@@ -29,4 +34,17 @@ a{
   background: url(image/image-header.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
+}
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  padding-top: 6rem;
+}
+
+/*nvigation*/
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
 }
