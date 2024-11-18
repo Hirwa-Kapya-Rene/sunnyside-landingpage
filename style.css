@@ -148,27 +148,34 @@ li{
     display: flex;
    }
 
- .img-collon{
-  width: auto;
-  display: inline;
-  flex-direction: column-reverse;
- }
+  .img-collon{
+    width: auto;
+    display: inline;
+    flex-direction: column-reverse;
+  }
 
- .img-col{
-  width: auto;
- }
- .bg-img{
-  display: inline-block;
- }
- .graphic{
-  background: url(image/image-graphic-design.jpg);
-  background-size: cover;
-  height: 50vh;
- }
- .photography{
-  background: url(image/image-photography.jpg);
-  background-size: cover;
-  height: 50vh;
- }
- 
+  .img-col{
+    width: auto;
+  }
+  .bg-img{
+    display: inline-block;
+  }
+  .graphic{
+    background: url(image/image-graphic-design.jpg);
+    background-size: cover;
+    height: 50vh;
+  }
+  .photography{
+    background: url(image/image-photography.jpg);
+    background-size: cover;
+    height: 50vh;
+  }
+
+ .hamburger{
+    display: block;
+  }
+
+  .nav-container{
+    display: none;
+  }
  }
