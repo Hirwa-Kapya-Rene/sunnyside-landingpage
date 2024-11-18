@@ -115,6 +115,60 @@ li{
   width: 50%;
  }
  
- .row{
-  grid-row: ;
+ .row-img{
+ }
+ .img-collon{
+ }
+
+ .transform{
+  display: flex;
+ }
+ .standout{
+  display: flex;
+ }
+ .bg-img{
+  display: flex;
+ }
+ .graphic{
+  background: url(image/image-graphic-design.jpg);
+ }
+ .photography{
+  background: url(image/image-photography.jpg);
+  background-size: cover;
+  height: 50vh;
+ }
+ @media screen and (max-width: 440px) {
+  .transform{
+    display: block;
+   }
+   .standout{
+    display: block;
+   }
+   .bg-img{
+    display: flex;
+   }
+
+ .img-collon{
+  width: auto;
+  display: inline;
+  flex-direction: column-reverse;
+ }
+
+ .img-col{
+  width: auto;
+ }
+ .bg-img{
+  display: inline-block;
+ }
+ .graphic{
+  background: url(image/image-graphic-design.jpg);
+  background-size: cover;
+  height: 50vh;
+ }
+ .photography{
+  background: url(image/image-photography.jpg);
+  background-size: cover;
+  height: 50vh;
+ }
+ 
  }
