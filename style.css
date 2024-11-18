@@ -122,9 +122,11 @@ li{
 
  .transform{
   display: flex;
+  align-items: center;
  }
  .standout{
   display: flex;
+  align-items: center;
  }
  .bg-img{
   display: flex;
@@ -140,9 +142,11 @@ li{
  @media screen and (max-width: 440px) {
   .transform{
     display: block;
+    align-items: center;
    }
    .standout{
     display: block;
+    align-items: center;
    }
    .bg-img{
     display: flex;
